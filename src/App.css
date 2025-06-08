@@ -1,0 +1,50 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.timer-container {
+  background: #f0f0f0;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.time-display {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.controls {
+  margin-top: 2rem;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  opacity: 0.9;
+}
+
+.pomodoros {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+}
